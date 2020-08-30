@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="HTML layout">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BookMark </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index_style.css" />
+  </head>
+
+  <body>
+    <header class="container p-4">
+      <h1>Bookmarker</h1>
+    </header>
+    <hr />
+    <section class="container">
+      <div class="container text-center">
+        <div class="form text-center p-5">
+
+          <h1>Bookmark your favorite sites</h1>
+
+          <div class="form-group">
+          <label>Site name</label>
+          <input id="name" class="form-control my-3" placeholder="Bookmarker name"/>
+          <div class="alert alert-danger mt-2 name-alert">please write the first letter capital</div>
+          
+        </div>
+        
+        <div class="form-group">
+          <label>Site URL</label>
+          <input id="url" class="form-control my-3" placeholder="Website URL"/>
+          <div class="alert alert-danger mt-2 url-alert">url must contain https://www."your website".com</div>
+        </div>
+
+          <button id="submitBtn" class="btn btn-primary ">Submit</button>
+
+        </div>
+
+        <input onkeyup="search(this.value)" class="form-control my-3" placeholder="Search">
+        <table id="display" class="table table-striped my-3">
+         
+        </table>
+      </div>
+    </section>
+    <hr />
+    <footer class="container p-4">
+      <div class="foter">&copy; 2019 Bookmarker Inc.</div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/min.js"></script>
+
+</body>
+</html>
+
+<!--
+                  _  
+   /\     /\/\   |_| 
+__/--\__ /    \  |  \
+
+-->

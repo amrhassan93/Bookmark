@@ -1,0 +1,46 @@
+header h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29.25px;
+    font-weight: 700;
+    color: rgb(170, 170, 170);
+}
+.form
+{
+    background-color: #eee;
+    width: 90%;
+    margin: auto;
+}
+
+.foter
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(170, 170, 170);
+    line-height: 21px;
+}
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.name-alert,.url-alert
+{
+    display: none;
+}
+
+/*
+                  _  
+   /\     /\/\   |_| 
+__/--\__ /    \  |  \
+
+*/
