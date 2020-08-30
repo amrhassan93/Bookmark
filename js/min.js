@@ -137,7 +137,7 @@ nameInput.addEventListener("keyup", function() {
 })
 
 urlInput.addEventListener("keyup", function() {
-    var nameRejex = /^https:[/]{2}www[.][a-z]{2,10}[.]/;
+    var nameRejex = /^https:[/]{2}www[.][a-z]{2,100}[.]/;
     if (nameRejex.test(urlInput.value) == false) {
         urlInput.classList.add("is-invalid");
         submit.disabled = "true";
