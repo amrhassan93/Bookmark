@@ -123,7 +123,7 @@ function editWebsite(index) {
 }
 
 nameInput.addEventListener("keyup", function() {
-    var nameRejex = /^[A-Z][a-z]{2,8}$/;
+    var nameRejex = /^[A-Z][a-z]{2,20}$/;
     if (nameRejex.test(nameInput.value) == false) {
         nameInput.classList.add("is-invalid");
         submit.disabled = "true";
